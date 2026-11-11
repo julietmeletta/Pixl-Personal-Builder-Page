@@ -36,10 +36,26 @@
     card2.style.transform =
       `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
   });
- 
-  card2.addEventListener('mouseleave', () => {
-    card2.style.transform = 'perspective(600px) rotateX(0deg) rotateY(0deg)';
-  });
+
   card2.addEventListener('mouseleave', resetTilt);
 
   window.addEventListener('blur', resetTilt);
+
+card.addEventListener('click', () => {
+  if (document.getElementById('CB1-front').style.display === 'none') {
+    document.getElementById('CB1-front').style.display = 'flex';
+    document.getElementById('CB1-back').style.display = 'none';
+  } else {
+    document.getElementById('CB1-front').style.display = 'none';
+    document.getElementById('CB1-back').style.display = 'flex';
+  }
+});  
+card2.addEventListener('click', () => {
+  if (document.getElementById('CB2-front').style.display === 'none') {
+    document.getElementById('CB2-front').style.display = 'flex';
+    document.getElementById('CB2-back').style.display = 'none';
+  } else {
+    document.getElementById('CB2-front').style.display = 'none';
+    document.getElementById('CB2-back').style.display = 'flex';
+  }
+});  
