@@ -50,12 +50,3 @@ card.addEventListener('click', () => {
     document.getElementById('CB1-back').style.display = 'flex';
   }
 });  
-card2.addEventListener('click', () => {
-  if (document.getElementById('CB2-front').style.display === 'none') {
-    document.getElementById('CB2-front').style.display = 'flex';
-    document.getElementById('CB2-back').style.display = 'none';
-  } else {
-    document.getElementById('CB2-front').style.display = 'none';
-    document.getElementById('CB2-back').style.display = 'flex';
-  }
-});  

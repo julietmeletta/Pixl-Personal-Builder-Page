@@ -64,6 +64,7 @@ body {
     border: 1px solid rgba(137, 210, 255, 0.9);
     border-radius: 16px;
     backdrop-filter: blur(6px);
+    width: 460px;
 }
 
 h1 {
@@ -92,8 +93,4 @@ h4 {
     padding: 1rem;
     overflow-y: scroll;
     scrollbar-width: none;
-}
-
-#CB1-front, #CB2-front {
-
 }
