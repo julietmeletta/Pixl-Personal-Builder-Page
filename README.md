@@ -6,3 +6,5 @@ Hello! This is my personal builder page! It shares some info about me and my cod
 **Demo Link:**
 You Can Try It Here: [Demo Link](https://julietmeletta.github.io/Pixl-Personal-Builder-Page/index.html)
 Thanks for checking out my site!
+
+![Image of Builder Page.](/readmeImg.png "Image of Builder Page.")
